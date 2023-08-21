@@ -35,7 +35,7 @@
 #
 # 13 489 483 43 2 3 84 1 4 3 2 5 4 3
 
-
+#
 def shift_dev(num: list[int], steps=0) -> list[int]:
     if steps < 0:
         steps = abs(steps)

@@ -51,3 +51,8 @@ def vice_versa(num) -> int:
 num = input().split()
 print(*vice_versa(num))
 
+# another solution
+
+s = list(map(int, input().split()))
+s[:-1:2], s[1::2] = s[1::2], s[:-1:2]
+print(*s)
